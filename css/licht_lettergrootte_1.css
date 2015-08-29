@@ -57,18 +57,10 @@ body {
 	text-align: center;
 	font-weight: 400;
 	font-size: 14pt;
-	color: #4a4a4a;
+	color: #6a6a6a;
 	font-family: Rosario;
+    background-color: #eaeaea;
 }
-
-/*#kl-menu-ul li {
-	text-align: center;
-	background-color: 
-	font-weight: 400;
-	font-size: 14pt;
-	color: #FFF;
-	font-family: Rosario;
-}*/
 
 #kl-menu-ul li a {
 	padding: 0px;
@@ -80,6 +72,10 @@ body {
 	background-color: inherit;
 }
 
+#kl-menu-ul li a:visited {
+    color: #6a6a6a;
+	background-color: inherit;
+}
 .kl-menu-line {
 	background-color: #BABABA;
 	width: 90%;
