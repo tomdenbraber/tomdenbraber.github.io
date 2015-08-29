@@ -1,0 +1,204 @@
+/*** NHKERKKLUNDERT COLORS:
+
+Rood: #d3433e
+Oranje: #ec8d23
+Geel: #f3af1c
+
+**/
+
+/**
+VERSCHIL TOV licht.css:
+- margin kl-sidebar > * toegevoegd
+- kl main content font-size
+**/
+
+
+@font-face {
+	font-family: Candara;
+	src: url("../fonts/Candara.ttf");
+}
+
+@font-face {
+	font-family: Rosario;
+	src: url("../fonts/Rosario-Regular.ttf");
+}
+
+body {
+	font-family: Candara;
+	background-color: #eaeaea; /*534D4B, #6B6B6B, 6D564C, 932F2B, B93B37*/ /*eaeaea*/
+}
+
+/*** TOP HEADER ***/
+.kl-top-header-button {
+	background-color: #d3433e;
+	color: #FFF;
+	font-size: 1.4em;
+	font-weight: bold;
+	margin-top: 5px;
+	padding: 4px 0px 4px 4px;
+}
+
+.kl-top-header-button a {
+	color: #FFF;
+	text-decoration: underline;
+}
+
+/*** MENU ***/
+#kl-menu {
+	margin-top: 15px;
+	padding-bottom: 5px;
+}
+
+#kl-menu-ul {
+	
+}
+
+#kl-menu-ul li {
+	text-align: center;
+	font-weight: 400;
+	font-size: 14pt;
+	color: #4a4a4a;
+	font-family: Rosario;
+}
+
+/*#kl-menu-ul li {
+	text-align: center;
+	background-color: 
+	font-weight: 400;
+	font-size: 14pt;
+	color: #FFF;
+	font-family: Rosario;
+}*/
+
+#kl-menu-ul li a {
+	padding: 0px;
+	color: #6a6a6a;
+}
+
+#kl-menu-ul li a:hover {
+	color: #6a6a6a;
+	background-color: inherit;
+}
+
+.kl-menu-line {
+	background-color: #BABABA;
+	width: 90%;
+	height: 2px;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 0px;
+}
+
+.kl-menu-line-active {
+	background-color: #ec8d23;
+	width: 90%;
+	height: 2px;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 0px;
+}
+
+.kl-menu-line-current {
+	background-color: #ec8d23;
+	width: 90%;
+	height: 2px;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 0px;
+}
+
+/*** END MENU ***/
+
+/*** CONTENT CONTAINER ***/
+#kl-content-container {
+	background-color: #fff;
+	border: 1px solid #BABABA;
+}
+
+/*** image column ***/
+#image-column {
+	height: 220px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/**** MAIN CONTENT ***/
+#kl-main-content {
+	padding-bottom: 10px;
+	font-size: 11.5pt;
+}
+
+#kl-main-content h3, #kl-main-content h3 > a {
+	color: #f3af1c;
+}
+
+#kl-main-content a {
+	color: #ec8d23;
+}
+
+.kl-post {
+	padding-left: 10px;
+}
+
+.kl-post > .kl-content {
+	padding-left: 5px;
+}
+
+.kl-post > img {
+	float: right;
+	margin-left: 10px;
+}
+
+.kl-placing-date {
+	font-size: 9pt;
+	/*float: left;*/
+	padding-top: 0px;
+	padding-bottom: 0px; 
+	padding-left: 5px; 
+	margin-top: -5px;
+	margin-bottom: 0px;
+}
+
+.kl-post a {
+	color: #ec8d23;
+}
+
+
+/*** SIDE BAR ****/
+#kl-sidebar {
+	border-left: 3px solid #f3af1c;
+}
+
+#kl-sidebar > * {
+    margin-right: 5px;
+}
+
+#kl-sidebar a {
+	color: #ec8d23;
+}
+
+.kl-go-to-sidebar {
+	color: #ec8d23;
+	text-align: right;
+	font-size: 9pt;
+	padding-right: 10px;
+	margin-top: -5px;
+}
+
+/*** FOOTER ***/
+#kl-footer {
+	border-top: 1px solid #BABABA;
+	background-color: inherit;
+	margin-top: 15px;
+	color: #6a6a6a;
+}
+
+#kl-footer ul {
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+#kl-footer ul li {
+	margin-left: 5px;
+	padding-left: 0px;
+}
